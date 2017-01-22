@@ -28,7 +28,9 @@ for (i = 0; i < livingRoom.length; i++) {
 
 
 // 2. Using a loop, log numbers 22-33 within their own paragraphs.
-
+for (i = 22; i<33; i++) {
+    document.getElementById("q2").innerHTML += "<p>" + i + "</p>";
+}
 
 
 
