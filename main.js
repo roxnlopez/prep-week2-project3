@@ -21,6 +21,9 @@ document.getElementById("q0").classList.add("status-good");
 // 1. Output each item in the following Array to your console within their own paragraphs:
 var livingRoom = ['couch', 'lamp', 'rug', 'shelf'];
 
+for (i = 0; i < livingRoom.length; i++) {
+    document.getElementById("q1").innerHTML += "<p>" + livingRoom[i] + "</p>";
+}
 
 
 
@@ -178,11 +181,11 @@ var largestNum = [-5, -2, -6, 0, -1]
 
 /* SANDBOX TRACK
 
-Solving all of these problems is a great step in the right direction, 
-but the next step is coming up with your own arrangements to solve 
+Solving all of these problems is a great step in the right direction,
+but the next step is coming up with your own arrangements to solve
 new problems. Practice creating your own problems to solve and their solutions -
-you can even challenge your classmates! 
- 
-Also, consider how you can add/remove CSS styles to create added presentation with the results. 
+you can even challenge your classmates!
+
+Also, consider how you can add/remove CSS styles to create added presentation with the results.
 
 */
