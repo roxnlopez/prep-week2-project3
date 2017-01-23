@@ -45,7 +45,7 @@ for (i = 75; i<100; i+5) {
 
 // 4. Write a while loop that displays paragraphs of "This is how a professional loops." to the HTML page 5 times.
 
-while (i < 10) {
+while (i < 5) {
     text += "This is how a professional loops." + i;
     i++;
 }
@@ -57,9 +57,14 @@ document.getElementById("q4").innerHTML = text;
 //     Display in unique paragraphs the sentence "At home, I have _____ cats."
 //     The numbers should range from 10 to 110, in increments of 25.
 for (i = 10; i<110; i+25) {
-    document.getElementById("q3").innerHTML += "<p>" + i + "</p>";
+    document.getElementById("q5").innerHTML += "<p>" + i + "</p>";
 }
+  while (i = 10; i<110; i+25) {
+    text += "At home, I have [i] cats." + i;
+    i+25;
+  }
 
+document.getElementById("5").innerHTML = text;
 
 
 
