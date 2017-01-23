@@ -136,11 +136,18 @@ if (i/3 && i/5)
 // BONUS: What happens if your user enters something other than "rock", "paper", or "scissors?". Change your default case
 //     to print a snarky message to the console if the input doesn't match any of the options.
 
-
-
-
-
-
+var human;
+var computer;
+math.random 
+if (i > 0 && i < .33) {
+  console.log("rock");
+}
+if (i > .34 && i < .66) {
+  console.log("paper");
+}
+if (i > .67 && i < 1) {
+  console.log("scissors");
+}
 
 // ADVANCED TRACK
 // 16. Write a conditional statement to find the largest of the numbers in the array provided.
