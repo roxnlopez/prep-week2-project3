@@ -106,10 +106,17 @@ var numArray = [13, 15, 17, 23, 25, 27, 33, 35, 37, 43, 45, 47, 53, 55, 57, 63, 
 // If the number is divisible by 3, print "Fizz" instead of the number.
 // If the number is divisible by 5, print "Buzz" instead of the number.
 // If the number is divisible by both 3 and 5, print "FizzBuzz" instead of the number.
-
-
-
-
+for (i = 0; i<100; i++) {
+    document.getElementById("q9").innerHTML += "<p>" + i + "</p>";
+if (i / 3) {
+  console.log("Fizz");
+}
+if (i / 5) {
+  console.log("BUZZ");
+} else {
+if (i/3 && i/5)
+}
+}
 
 // RO SHAM BO!
 // We're going to create a paper, rock, scissors game that prompts you for your choice and allows the computer to
