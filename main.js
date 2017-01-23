@@ -36,22 +36,29 @@ for (i = 22; i<33; i++) {
 
 
 // 3. Using a similar loop, log numbers 75 to 100, only in increments of five.
-
+for (i = 75; i<100; i+5) {
+    document.getElementById("q3").innerHTML += "<p>" + i + "</p>";
+}
 
 
 
 
 // 4. Write a while loop that displays paragraphs of "This is how a professional loops." to the HTML page 5 times.
 
+while (i < 10) {
+    text += "This is how a professional loops." + i;
+    i++;
+}
 
-
-
+document.getElementById("q4").innerHTML = text;
 
 
 // 5. Separately, use both a for loop and while loop to do the same thing.
 //     Display in unique paragraphs the sentence "At home, I have _____ cats."
 //     The numbers should range from 10 to 110, in increments of 25.
-
+for (i = 10; i<110; i+25) {
+    document.getElementById("q3").innerHTML += "<p>" + i + "</p>";
+}
 
 
 
